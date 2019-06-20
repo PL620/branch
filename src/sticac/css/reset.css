@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+	margin: 0;
+	padding: 0
+}
+body,html{
+	width: 100vw;
+	height: 100vh;
+}
+body,
+button,
+input,
+select,
+textarea {
+	font: 12px/1.5 "microsoft yahei", Helvetica, Tahoma, Arial, "Microsoft jhengHei", sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+	font-style: normal
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: couriernew, courier, monospace
+}
+
+small {
+	font-size: 12px
+}
+
+ul,
+ol {
+	list-style: none
+}
+
+a {
+	text-decoration: none
+}
+
+a:link {
+	text-decoration: none
+}
+
+a:visited {
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: none;
+	text-decoration: inherit
+}
+
+sup {
+	vertical-align: text-top
+}
+
+sub {
+	vertical-align: text-bottom
+}
+
+legend {
+	color: #000
+}
+
+fieldset,
+img {
+	border: 0
+}
+
+button,
+input,
+select,
+textarea {
+	font-size: 100%;
+	border: none;
+	outline: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+body.pc {
+	overflow-x: auto;
+	overflow-y: hidden
+}
+
+article,
+aside,
+dialog,
+footer,
+header,
+section,
+footer,
+nav,
+figure,
+menu {
+	display: block
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.cf {
+	clear: both
+}
+body{
+	overflow-x:hidden;
+	width: 100%;
+	min-width: 100%;
+}
